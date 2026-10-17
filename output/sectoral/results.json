@@ -1,0 +1,983 @@
+{
+ "coverage_bcw_share_sum": {
+  "1899-1909": 0.751,
+  "1909-1919": 0.779,
+  "1919-1929": 0.807,
+  "1929-1941": 0.788
+ },
+ "bcw_sum_vs_pde": {
+  "sum_of_contributions": {
+   "1899-1909": 0.939,
+   "1909-1919": 0.383,
+   "1919-1929": 1.784,
+   "1929-1941": 1.546
+  },
+  "pde_tfp": {
+   "1899-1909": 0.93,
+   "1909-1919": 0.642,
+   "1919-1929": 1.631,
+   "1929-1941": 1.861
+  }
+ },
+ "validation_jhs_vs_official_1998_2014": {
+  "aggregate_annual_corr": 0.9575258172282529,
+  "aggregate_mean_jhs": 0.48794213297444905,
+  "aggregate_mean_official": 0.7584529485504184,
+  "industry_mean_growth_corr": 0.8146489516738125
+ },
+ "post_aggregate_by_era": {
+  "1948-1973": 1.1989402739137212,
+  "1973-1995": 0.22222177765156081,
+  "1995-2007": 0.8158863593293068,
+  "2007-2024": 0.5494609546118325
+ },
+ "H1_lowfreq": {
+  "q": 6,
+  "industries_61": {
+   "sd_aggregate": 0.39430610704659885,
+   "sd_independent": 0.33086485927411213,
+   "sd_synchronized": 1.8988360132315334,
+   "position_0ind_1sync": 0.040460723790974464,
+   "R": 1.4202530137504594,
+   "R_null_median": 0.8976705495169208,
+   "R_null_p05": 0.25181707275699283,
+   "R_null_p95": 2.119299239221822,
+   "p_above_null": 0.212,
+   "p_below_null": 0.788,
+   "mean_pairwise_corr": 0.03926213467672744,
+   "n_parts": 61,
+   "T": 76
+  },
+  "sectors_11": {
+   "sd_aggregate": 0.39430610704659885,
+   "sd_independent": 0.36501395304814405,
+   "sd_synchronized": 1.0891417830767038,
+   "position_0ind_1sync": 0.04045163406756444,
+   "R": 1.166938785583218,
+   "R_null_median": 0.9145666226324647,
+   "R_null_p05": 0.27778004551214786,
+   "R_null_p95": 2.13649129185522,
+   "p_above_null": 0.344,
+   "p_below_null": 0.656,
+   "mean_pairwise_corr": 0.057710248283771436,
+   "n_parts": 11,
+   "T": 76
+  },
+  "first_pc_industry_tfp": {
+   "share": 0.29205741555918346,
+   "null_median": 0.2734074700317479,
+   "p": 0.182
+  },
+  "industries_1949-1986": {
+   "sd_aggregate": 0.41971376859794,
+   "sd_independent": 0.30136122991163217,
+   "sd_synchronized": 1.6834942292772053,
+   "position_0ind_1sync": 0.085630354488775,
+   "R": 1.9396870818726946,
+   "R_null_median": 0.8404464378476011,
+   "R_null_p05": 0.1247867762708526,
+   "R_null_p95": 2.787479503662321,
+   "p_above_null": 0.158,
+   "p_below_null": 0.842,
+   "mean_pairwise_corr": 0.03931693144386287,
+   "n_parts": 61,
+   "T": 38
+  },
+  "industries_1987-2024": {
+   "sd_aggregate": 0.32775201058411035,
+   "sd_independent": 0.30994610340122597,
+   "sd_synchronized": 1.5913116568681678,
+   "position_0ind_1sync": 0.013896040153965138,
+   "R": 1.1181971149523138,
+   "R_null_median": 0.801503800726039,
+   "R_null_p05": 0.1276461172329088,
+   "R_null_p95": 2.426632415579988,
+   "p_above_null": 0.37,
+   "p_below_null": 0.63,
+   "mean_pairwise_corr": -0.0022355933995302814,
+   "n_parts": 61,
+   "T": 38
+  },
+  "industries_1949-2014_jhs_only": {
+   "sd_aggregate": 0.40500816649903754,
+   "sd_independent": 0.3220832333682264,
+   "sd_synchronized": 1.780627177882217,
+   "position_0ind_1sync": 0.056854600399745235,
+   "R": 1.5812164572628293,
+   "R_null_median": 0.9574694369094036,
+   "R_null_p05": 0.25715246111038476,
+   "R_null_p95": 2.229711255739353,
+   "p_above_null": 0.166,
+   "p_below_null": 0.834,
+   "mean_pairwise_corr": 0.04643327640648886,
+   "n_parts": 61,
+   "T": 66
+  }
+ },
+ "eras": {
+  "aggregate_tfp_covered": {
+   "1899-1909": 1.25,
+   "1909-1919": 0.492,
+   "1919-1929": 2.211,
+   "1929-1941": 1.962,
+   "1948-1973": 1.199,
+   "1973-1995": 0.222,
+   "1995-2007": 0.816,
+   "2007-2024": 0.549
+  },
+  "covered_share": {
+   "1899-1909": 0.751,
+   "1909-1919": 0.779,
+   "1919-1929": 0.807,
+   "1929-1941": 0.788,
+   "1948-1973": 1.0,
+   "1973-1995": 1.0,
+   "1995-2007": 1.0,
+   "2007-2024": 1.0
+  },
+  "sector_tfp": {
+   "1899-1909": {
+    "Agriculture": -0.24,
+    "Mining": 0.92,
+    "Utilities": 4.07,
+    "Construction": 4.35,
+    "Durable mfg": 1.2,
+    "Nondurable mfg": 1.07,
+    "Trade": 1.56,
+    "Transportation": 1.31,
+    "Communications/info": 2.51,
+    "FIRE": 0.66,
+    "Other services": 3.97
+   },
+   "1909-1919": {
+    "Agriculture": -0.69,
+    "Mining": 1.08,
+    "Utilities": 6.55,
+    "Construction": -1.51,
+    "Durable mfg": 0.52,
+    "Nondurable mfg": 0.42,
+    "Trade": 0.03,
+    "Transportation": 2.6,
+    "Communications/info": 1.75,
+    "FIRE": -0.01,
+    "Other services": 10.79
+   },
+   "1919-1929": {
+    "Agriculture": 1.06,
+    "Mining": 3.12,
+    "Utilities": 2.11,
+    "Construction": 0.83,
+    "Durable mfg": 4.24,
+    "Nondurable mfg": 4.41,
+    "Trade": 0.91,
+    "Transportation": 2.52,
+    "Communications/info": 1.07,
+    "FIRE": 0.26,
+    "Other services": 3.24
+   },
+   "1929-1941": {
+    "Agriculture": 2.51,
+    "Mining": 1.66,
+    "Utilities": 4.75,
+    "Construction": 0.35,
+    "Durable mfg": 2.19,
+    "Nondurable mfg": 2.07,
+    "Trade": 3.39,
+    "Transportation": 3.03,
+    "Communications/info": 1.09,
+    "FIRE": -1.36,
+    "Other services": 4.38
+   },
+   "1948-1973": {
+    "Agriculture": 1.89,
+    "Mining": 0.03,
+    "Utilities": 1.34,
+    "Construction": 1.89,
+    "Durable mfg": 1.13,
+    "Nondurable mfg": 2.18,
+    "Trade": 2.03,
+    "Transportation": 2.27,
+    "Communications/info": 0.49,
+    "FIRE": -0.11,
+    "Other services": 0.54
+   },
+   "1973-1995": {
+    "Agriculture": 2.99,
+    "Mining": -4.04,
+    "Utilities": -1.58,
+    "Construction": -0.79,
+    "Durable mfg": 1.14,
+    "Nondurable mfg": 0.56,
+    "Trade": 1.48,
+    "Transportation": 1.41,
+    "Communications/info": 1.17,
+    "FIRE": -0.29,
+    "Other services": -0.71
+   },
+   "1995-2007": {
+    "Agriculture": 3.36,
+    "Mining": 0.34,
+    "Utilities": -0.89,
+    "Construction": -2.66,
+    "Durable mfg": 5.34,
+    "Nondurable mfg": 0.67,
+    "Trade": 2.61,
+    "Transportation": 0.44,
+    "Communications/info": 1.6,
+    "FIRE": 0.31,
+    "Other services": -0.59
+   },
+   "2007-2024": {
+    "Agriculture": 2.47,
+    "Mining": 4.36,
+    "Utilities": -0.77,
+    "Construction": -0.86,
+    "Durable mfg": 0.72,
+    "Nondurable mfg": -1.2,
+    "Trade": 0.44,
+    "Transportation": -0.15,
+    "Communications/info": 1.94,
+    "FIRE": 0.49,
+    "Other services": 0.72
+   }
+  },
+  "sector_contribution": {
+   "1899-1909": {
+    "Agriculture": -0.031,
+    "Mining": 0.022,
+    "Utilities": 0.03,
+    "Construction": 0.239,
+    "Durable mfg": 0.142,
+    "Nondurable mfg": 0.139,
+    "Trade": 0.217,
+    "Transportation": 0.113,
+    "Communications/info": 0.023,
+    "FIRE": 0.031,
+    "Other services": 0.016
+   },
+   "1909-1919": {
+    "Agriculture": -0.079,
+    "Mining": 0.027,
+    "Utilities": 0.097,
+    "Construction": -0.074,
+    "Durable mfg": 0.064,
+    "Nondurable mfg": 0.056,
+    "Trade": 0.004,
+    "Transportation": 0.219,
+    "Communications/info": 0.021,
+    "FIRE": -0.0,
+    "Other services": 0.05
+   },
+   "1919-1929": {
+    "Agriculture": 0.103,
+    "Mining": 0.081,
+    "Utilities": 0.047,
+    "Construction": 0.036,
+    "Durable mfg": 0.53,
+    "Nondurable mfg": 0.589,
+    "Trade": 0.127,
+    "Transportation": 0.207,
+    "Communications/info": 0.016,
+    "FIRE": 0.031,
+    "Other services": 0.017
+   },
+   "1929-1941": {
+    "Agriculture": 0.206,
+    "Mining": 0.042,
+    "Utilities": 0.128,
+    "Construction": 0.012,
+    "Durable mfg": 0.268,
+    "Nondurable mfg": 0.289,
+    "Trade": 0.494,
+    "Transportation": 0.221,
+    "Communications/info": 0.018,
+    "FIRE": -0.158,
+    "Other services": 0.025
+   },
+   "1948-1973": {
+    "Agriculture": 0.095,
+    "Mining": 0.001,
+    "Utilities": 0.03,
+    "Construction": 0.101,
+    "Durable mfg": 0.204,
+    "Nondurable mfg": 0.267,
+    "Trade": 0.296,
+    "Transportation": 0.123,
+    "Communications/info": 0.02,
+    "FIRE": -0.018,
+    "Other services": 0.08
+   },
+   "1973-1995": {
+    "Agriculture": 0.076,
+    "Mining": -0.093,
+    "Utilities": -0.042,
+    "Construction": -0.04,
+    "Durable mfg": 0.16,
+    "Nondurable mfg": 0.051,
+    "Trade": 0.206,
+    "Transportation": 0.057,
+    "Communications/info": 0.059,
+    "FIRE": -0.058,
+    "Other services": -0.152
+   },
+   "1995-2007": {
+    "Agriculture": 0.044,
+    "Mining": 0.005,
+    "Utilities": -0.018,
+    "Construction": -0.141,
+    "Durable mfg": 0.528,
+    "Nondurable mfg": 0.048,
+    "Trade": 0.338,
+    "Transportation": 0.015,
+    "Communications/info": 0.089,
+    "FIRE": 0.071,
+    "Other services": -0.163
+   },
+   "2007-2024": {
+    "Agriculture": 0.031,
+    "Mining": 0.093,
+    "Utilities": -0.014,
+    "Construction": -0.042,
+    "Durable mfg": 0.052,
+    "Nondurable mfg": -0.073,
+    "Trade": 0.053,
+    "Transportation": -0.005,
+    "Communications/info": 0.113,
+    "FIRE": 0.119,
+    "Other services": 0.223
+   }
+  },
+  "sector_share": {
+   "1899-1909": {
+    "Agriculture": 0.131,
+    "Mining": 0.024,
+    "Utilities": 0.007,
+    "Construction": 0.055,
+    "Durable mfg": 0.118,
+    "Nondurable mfg": 0.13,
+    "Trade": 0.139,
+    "Transportation": 0.086,
+    "Communications/info": 0.009,
+    "FIRE": 0.047,
+    "Other services": 0.004
+   },
+   "1909-1919": {
+    "Agriculture": 0.114,
+    "Mining": 0.025,
+    "Utilities": 0.015,
+    "Construction": 0.049,
+    "Durable mfg": 0.122,
+    "Nondurable mfg": 0.132,
+    "Trade": 0.139,
+    "Transportation": 0.084,
+    "Communications/info": 0.012,
+    "FIRE": 0.082,
+    "Other services": 0.005
+   },
+   "1919-1929": {
+    "Agriculture": 0.098,
+    "Mining": 0.026,
+    "Utilities": 0.022,
+    "Construction": 0.044,
+    "Durable mfg": 0.125,
+    "Nondurable mfg": 0.134,
+    "Trade": 0.14,
+    "Transportation": 0.082,
+    "Communications/info": 0.015,
+    "FIRE": 0.117,
+    "Other services": 0.005
+   },
+   "1929-1941": {
+    "Agriculture": 0.082,
+    "Mining": 0.025,
+    "Utilities": 0.027,
+    "Construction": 0.034,
+    "Durable mfg": 0.122,
+    "Nondurable mfg": 0.14,
+    "Trade": 0.146,
+    "Transportation": 0.073,
+    "Communications/info": 0.017,
+    "FIRE": 0.116,
+    "Other services": 0.006
+   },
+   "1948-1973": {
+    "Agriculture": 0.05,
+    "Mining": 0.022,
+    "Utilities": 0.023,
+    "Construction": 0.053,
+    "Durable mfg": 0.181,
+    "Nondurable mfg": 0.123,
+    "Trade": 0.146,
+    "Transportation": 0.054,
+    "Communications/info": 0.04,
+    "FIRE": 0.16,
+    "Other services": 0.148
+   },
+   "1973-1995": {
+    "Agriculture": 0.025,
+    "Mining": 0.023,
+    "Utilities": 0.027,
+    "Construction": 0.051,
+    "Durable mfg": 0.139,
+    "Nondurable mfg": 0.091,
+    "Trade": 0.139,
+    "Transportation": 0.04,
+    "Communications/info": 0.051,
+    "FIRE": 0.199,
+    "Other services": 0.214
+   },
+   "1995-2007": {
+    "Agriculture": 0.013,
+    "Mining": 0.015,
+    "Utilities": 0.02,
+    "Construction": 0.053,
+    "Durable mfg": 0.099,
+    "Nondurable mfg": 0.072,
+    "Trade": 0.129,
+    "Transportation": 0.034,
+    "Communications/info": 0.055,
+    "FIRE": 0.232,
+    "Other services": 0.277
+   },
+   "2007-2024": {
+    "Agriculture": 0.013,
+    "Mining": 0.021,
+    "Utilities": 0.018,
+    "Construction": 0.049,
+    "Durable mfg": 0.072,
+    "Nondurable mfg": 0.061,
+    "Trade": 0.12,
+    "Transportation": 0.036,
+    "Communications/info": 0.058,
+    "FIRE": 0.242,
+    "Other services": 0.311
+   }
+  }
+ },
+ "H1_eras": {
+  "all_8_eras_11_sectors": {
+   "sd_aggregate": 0.6644865280039447,
+   "sd_independent": 0.44863787797014404,
+   "sd_synchronized": 1.3322560097313294,
+   "position_0ind_1sync": 0.24427820375707035,
+   "R": 2.19371641600377,
+   "R_null_median": 0.9157568804470662,
+   "R_null_p05": 0.3283968009319036,
+   "R_null_p95": 1.9164803494333924,
+   "p_above_null": 0.0208,
+   "p_below_null": 0.9792,
+   "mean_pairwise_corr": 0.07027171518168797,
+   "n_parts": 11,
+   "T": 8
+  },
+  "prewar_4_eras_38_industries": {
+   "sd_aggregate": 0.5454283535493696,
+   "sd_independent": 0.2994547134156881,
+   "sd_synchronized": 1.1678357882462178,
+   "position_0ind_1sync": 0.2832554131625737,
+   "R": 3.317516675950818,
+   "R_null_median": 0.8253073290553115,
+   "R_null_p05": 0.1319372452222116,
+   "R_null_p95": 2.4545225563393083,
+   "p_above_null": 0.0104,
+   "p_below_null": 0.9896,
+   "mean_pairwise_corr": 0.17690465008833253,
+   "n_parts": 38,
+   "T": 4
+  },
+  "postwar_4_eras_61_industries": {
+   "sd_aggregate": 0.3582106851574069,
+   "sd_independent": 0.27304638765608674,
+   "sd_synchronized": 1.4570405791748715,
+   "position_0ind_1sync": 0.07192965819542955,
+   "R": 1.7210924608193634,
+   "R_null_median": 0.8151874914868287,
+   "R_null_p05": 0.12390857104359221,
+   "R_null_p95": 2.480382250694541,
+   "p_above_null": 0.154,
+   "p_below_null": 0.846,
+   "mean_pairwise_corr": 0.06167182614145571,
+   "n_parts": 61,
+   "T": 4
+  }
+ },
+ "H2_rank_persistence": {
+  "prewar_industries": {
+   "1899-1909 -> 1909-1919": {
+    "rho": 0.43648101542838386,
+    "p": 0.00615003538499997,
+    "n": 38
+   },
+   "1909-1919 -> 1919-1929": {
+    "rho": -0.054601159864317766,
+    "p": 0.7447394764874882,
+    "n": 38
+   },
+   "1919-1929 -> 1929-1941": {
+    "rho": 0.16052084473137104,
+    "p": 0.3356859262478882,
+    "n": 38
+   }
+  },
+  "postwar_industries": {
+   "1948-1973 -> 1973-1995": {
+    "rho": 0.11385510312004228,
+    "p": 0.38228916236445476,
+    "n": 61
+   },
+   "1973-1995 -> 1995-2007": {
+    "rho": 0.2542041248016922,
+    "p": 0.048049508080353055,
+    "n": 61
+   },
+   "1995-2007 -> 2007-2024": {
+    "rho": 0.03553675304071919,
+    "p": 0.7857028680461521,
+    "n": 61
+   }
+  },
+  "postwar_industries_gross_output_tfp": {
+   "1948-1973 -> 1973-1995": {
+    "rho": 0.09640401903754627,
+    "p": 0.45985430757569334,
+    "n": 61
+   },
+   "1973-1995 -> 1995-2007": {
+    "rho": 0.37234267583289254,
+    "p": 0.0031269328759751273,
+    "n": 61
+   },
+   "1995-2007 -> 2007-2024": {
+    "rho": 0.06938127974616604,
+    "p": 0.5952000571536844,
+    "n": 61
+   }
+  },
+  "sectors_all_eras": {
+   "1899-1909 -> 1909-1919": {
+    "rho": 0.3545454545454546,
+    "p": 0.2846927409558867,
+    "n": 11
+   },
+   "1909-1919 -> 1919-1929": {
+    "rho": 0.5636363636363637,
+    "p": 0.07095173447637536,
+    "n": 11
+   },
+   "1919-1929 -> 1929-1941": {
+    "rho": 0.3454545454545455,
+    "p": 0.2980892209030388,
+    "n": 11
+   },
+   "1929-1941 -> 1948-1973": {
+    "rho": 0.38181818181818183,
+    "p": 0.24655957577897006,
+    "n": 11
+   },
+   "1948-1973 -> 1973-1995": {
+    "rho": 0.43636363636363645,
+    "p": 0.1796648765800112,
+    "n": 11
+   },
+   "1973-1995 -> 1995-2007": {
+    "rho": 0.7727272727272727,
+    "p": 0.005299487178643863,
+    "n": 11
+   },
+   "1995-2007 -> 2007-2024": {
+    "rho": 0.36363636363636365,
+    "p": 0.2716375409938228,
+    "n": 11
+   }
+  }
+ },
+ "H2_concentration": {
+  "1899-1909": {
+   "aggregate": 0.938846466701102,
+   "top5_share": 0.7385598209976504,
+   "top5": [
+    "Contract construction",
+    "Wholesale and retail trade",
+    "Railroad transportation",
+    "Primary metal industries",
+    "Printing and publishing"
+   ],
+   "n_positive": 33,
+   "n": 38,
+   "sum_negative": -0.05797751384621889
+  },
+  "1909-1919": {
+   "aggregate": 0.383448396707988,
+   "top5_share": 1.186120837486069,
+   "top5": [
+    "Railroad transportation",
+    "Transportation equipment",
+    "Electric utilities",
+    "Spectator entertainment",
+    "Printing and publishing"
+   ],
+   "n_positive": 25,
+   "n": 38,
+   "sum_negative": -0.31284952516950315
+  },
+  "1919-1929": {
+   "aggregate": 1.783729359483826,
+   "top5_share": 0.3580899500647905,
+   "top5": [
+    "Food and kindred products",
+    "Transportation equipment",
+    "Wholesale and retail trade",
+    "Primary metal industries",
+    "Agriculture, forestry, and fisheries"
+   ],
+   "n_positive": 36,
+   "n": 38,
+   "sum_negative": -0.001544846701190634
+  },
+  "1929-1941": {
+   "aggregate": 1.5460377396176717,
+   "top5_share": 0.685961147042315,
+   "top5": [
+    "Wholesale and retail trade",
+    "Agriculture, forestry, and fisheries",
+    "Food and kindred products",
+    "Railroad transportation",
+    "Electric utilities"
+   ],
+   "n_positive": 33,
+   "n": 38,
+   "sum_negative": -0.19201135784732093
+  },
+  "1948-1973": {
+   "aggregate": 1.1989402739137205,
+   "top5_share": 0.5026396593966495,
+   "top5": [
+    "Retail trade",
+    "Wholesale trade",
+    "Farms",
+    "Food and beverage and tobacco products",
+    "Construction"
+   ],
+   "n_positive": 42,
+   "n": 61,
+   "sum_negative": -0.186577095240353
+  },
+  "1973-1995": {
+   "aggregate": 0.22222177765156076,
+   "top5_share": 2.618753855906435,
+   "top5": [
+    "Computer and electronic products",
+    "Wholesale trade",
+    "Retail trade",
+    "Farms",
+    "Broadcasting and telecommunications"
+   ],
+   "n_positive": 31,
+   "n": 61,
+   "sum_negative": -0.6476341248645272
+  },
+  "1995-2007": {
+   "aggregate": 0.8158863593293066,
+   "top5_share": 1.1182606378022153,
+   "top5": [
+    "Computer and electronic products",
+    "Wholesale trade",
+    "Retail trade",
+    "Real estate",
+    "Securities, commodity contracts, and investments"
+   ],
+   "n_positive": 43,
+   "n": 61,
+   "sum_negative": -0.6493745071287209
+  },
+  "2007-2024": {
+   "aggregate": 0.5494609546118323,
+   "top5_share": 0.9537137323473468,
+   "top5": [
+    "Real estate",
+    "Retail trade",
+    "Oil and gas extraction",
+    "Computer systems design and related services",
+    "Miscellaneous professional, scientific, and technical services"
+   ],
+   "n_positive": 30,
+   "n": 61,
+   "sum_negative": -0.4024336695043519
+  }
+ },
+ "H2_concentration_vs_aggregate": {
+  "corr_aggregate_top5share": -0.7758940628009509,
+  "corr_aggregate_share_positive": 0.8471731240334349,
+  "share_positive_by_era": {
+   "1899-1909": 0.87,
+   "1909-1919": 0.66,
+   "1919-1929": 0.95,
+   "1929-1941": 0.87,
+   "1948-1973": 0.69,
+   "1973-1995": 0.51,
+   "1995-2007": 0.7,
+   "2007-2024": 0.49
+  }
+ },
+ "H3_baumol_share_response": {
+  "prewar_va_shares": {
+   "corr": 0.2841492499973227,
+   "p": 0.002184989435737025,
+   "slope_dlogshare_per_pp_tfp": 0.025971735391426744,
+   "n": 114
+  },
+  "postwar_va_shares": {
+   "corr": -0.08033421881732716,
+   "p": 0.27967804474708596,
+   "slope_dlogshare_per_pp_tfp": -0.011708378789112637,
+   "n": 183
+  },
+  "postwar_domar_gross_output_tfp": {
+   "corr": -0.04757324603223061,
+   "p": 0.5224902981381213,
+   "slope_dlogshare_per_pp_tfp": -0.015138525401597784,
+   "n": 183
+  },
+  "sectors_all_eras": {
+   "corr": 0.06580479918213163,
+   "p": 0.5696229414972803,
+   "slope_dlogshare_per_pp_tfp": 0.01423779188057827,
+   "n": 77
+  }
+ },
+ "H3_fixed_weights": {
+  "prewar": {
+   "actual": {
+    "1899-1909": 1.25,
+    "1909-1919": 0.492,
+    "1919-1929": 2.211,
+    "1929-1941": 1.962
+   },
+   "fixed_first_era": {
+    "1899-1909": 1.25,
+    "1909-1919": 0.344,
+    "1919-1929": 2.168,
+    "1929-1941": 2.049
+   },
+   "sd_actual": 0.6699856569811204,
+   "sd_fixed": 0.730997825972589
+  },
+  "postwar": {
+   "actual": {
+    "1948-1973": 1.199,
+    "1973-1995": 0.222,
+    "1995-2007": 0.816,
+    "2007-2024": 0.549
+   },
+   "fixed_first_era": {
+    "1948-1973": 1.199,
+    "1973-1995": 0.331,
+    "1995-2007": 1.07,
+    "2007-2024": 0.472
+   },
+   "sd_actual": 0.35821068515740706,
+   "sd_fixed": 0.37261175548326186
+  }
+ },
+ "H3_lowfreq_fixed_1949_weights": {
+  "lf_sd_actual": 0.39430610704659885,
+  "lf_sd_fixed": 0.37844443960488316,
+  "mean_actual": 0.7104455065332921,
+  "mean_fixed": 0.8353273653441856
+ },
+ "H3_lowfreq_share_response": {
+  "median_slope": 0.09772737110459678,
+  "share_negative": 0.4918032786885246,
+  "n": 61
+ },
+ "H4_changes": {
+  "1909-1919 -> 1919-1929": {
+   "aggregate_change": 1.718605563212558,
+   "within_sum": 1.7013815437695756,
+   "share_of_sectors_moving_with_aggregate": 0.6363636363636364,
+   "within_by_sector": {
+    "Agriculture": 0.234,
+    "Mining": 0.065,
+    "Utilities": -0.103,
+    "Construction": 0.137,
+    "Durable mfg": 0.578,
+    "Nondurable mfg": 0.668,
+    "Trade": 0.155,
+    "Transportation": -0.008,
+    "Communications/info": -0.011,
+    "FIRE": 0.034,
+    "Other services": -0.047
+   },
+   "top2_share_of_within": 0.7324428983015342
+  },
+  "1899-1909 -> 1919-1929": {
+   "aggregate_change": 0.9610804918308027,
+   "within_sum": 0.9934620586067905,
+   "share_of_sectors_moving_with_aggregate": 0.45454545454545453,
+   "within_by_sector": {
+    "Agriculture": 0.191,
+    "Mining": 0.07,
+    "Utilities": -0.037,
+    "Construction": -0.223,
+    "Durable mfg": 0.476,
+    "Nondurable mfg": 0.567,
+    "Trade": -0.116,
+    "Transportation": 0.132,
+    "Communications/info": -0.022,
+    "FIRE": -0.041,
+    "Other services": -0.004
+   },
+   "top2_share_of_within": 1.0494574105601149
+  },
+  "1919-1929 -> 1929-1941": {
+   "aggregate_change": -0.24843954143674885,
+   "within_sum": -0.2793666169658977,
+   "share_of_sectors_moving_with_aggregate": 0.45454545454545453,
+   "within_by_sector": {
+    "Agriculture": 0.163,
+    "Mining": -0.047,
+    "Utilities": 0.082,
+    "Construction": -0.023,
+    "Durable mfg": -0.317,
+    "Nondurable mfg": -0.401,
+    "Trade": 0.444,
+    "Transportation": 0.05,
+    "Communications/info": 0.001,
+    "FIRE": -0.238,
+    "Other services": 0.008
+   },
+   "top2_share_of_within": -0.15381975930640684
+  },
+  "1929-1941 -> 1948-1973": {
+   "aggregate_change": -0.7634413331869883,
+   "within_sum": -0.6825552385818712,
+   "share_of_sectors_moving_with_aggregate": 0.7272727272727273,
+   "within_by_sector": {
+    "Agriculture": -0.047,
+    "Mining": -0.044,
+    "Utilities": -0.098,
+    "Construction": 0.075,
+    "Durable mfg": -0.18,
+    "Nondurable mfg": 0.016,
+    "Trade": -0.225,
+    "Transportation": -0.056,
+    "Communications/info": -0.019,
+    "FIRE": 0.192,
+    "Other services": -0.297
+   },
+   "top2_share_of_within": 0.7651855698059011
+  },
+  "1909-1919 -> 1948-1973": {
+   "aggregate_change": 0.706724688588821,
+   "within_sum": 0.13619243527186686,
+   "share_of_sectors_moving_with_aggregate": 0.45454545454545453,
+   "within_by_sector": {
+    "Agriculture": 0.254,
+    "Mining": -0.028,
+    "Utilities": -0.109,
+    "Construction": 0.198,
+    "Durable mfg": 0.102,
+    "Nondurable mfg": 0.256,
+    "Trade": 0.325,
+    "Transportation": -0.026,
+    "Communications/info": -0.035,
+    "FIRE": -0.014,
+    "Other services": -0.786
+   },
+   "top2_share_of_within": -3.389132760910655
+  },
+  "1948-1973 -> 1973-1995": {
+   "aggregate_change": -0.9767184962621607,
+   "within_sum": -0.7798072567060045,
+   "share_of_sectors_moving_with_aggregate": 0.7272727272727273,
+   "within_by_sector": {
+    "Agriculture": 0.042,
+    "Mining": -0.092,
+    "Utilities": -0.072,
+    "Construction": -0.14,
+    "Durable mfg": 0.003,
+    "Nondurable mfg": -0.174,
+    "Trade": -0.078,
+    "Transportation": -0.041,
+    "Communications/info": 0.031,
+    "FIRE": -0.033,
+    "Other services": -0.226
+   },
+   "top2_share_of_within": 0.5129120569961051
+  },
+  "1973-1995 -> 1995-2007": {
+   "aggregate_change": 0.5936645816777462,
+   "within_sum": 0.8153384934975356,
+   "share_of_sectors_moving_with_aggregate": 0.8181818181818182,
+   "within_by_sector": {
+    "Agriculture": 0.007,
+    "Mining": 0.082,
+    "Utilities": 0.016,
+    "Construction": -0.097,
+    "Durable mfg": 0.5,
+    "Nondurable mfg": 0.009,
+    "Trade": 0.152,
+    "Transportation": -0.036,
+    "Communications/info": 0.023,
+    "FIRE": 0.13,
+    "Other services": 0.03
+   },
+   "top2_share_of_within": 0.7994811165594122
+  },
+  "1995-2007 -> 2007-2024": {
+   "aggregate_change": -0.2664254047174742,
+   "within_sum": -0.20845096054543993,
+   "share_of_sectors_moving_with_aggregate": 0.45454545454545453,
+   "within_by_sector": {
+    "Agriculture": -0.011,
+    "Mining": 0.072,
+    "Utilities": 0.002,
+    "Construction": 0.091,
+    "Durable mfg": -0.395,
+    "Nondurable mfg": -0.124,
+    "Trade": -0.27,
+    "Transportation": -0.021,
+    "Communications/info": 0.019,
+    "FIRE": 0.044,
+    "Other services": 0.384
+   },
+   "top2_share_of_within": 0.05304072950905949
+  }
+ },
+ "robustness_beabls_experimental_1964_2016": {
+  "q": 4,
+  "industries_61": {
+   "sd_aggregate": 0.458095750347606,
+   "sd_independent": 0.29300981385498487,
+   "sd_synchronized": 1.622890363761082,
+   "position_0ind_1sync": 0.1241359131872993,
+   "R": 2.4442644583414905,
+   "R_null_median": 0.9089263221866247,
+   "R_null_p05": 0.18944493785686442,
+   "R_null_p95": 2.3203586990662424,
+   "p_above_null": 0.042,
+   "p_below_null": 0.958,
+   "mean_pairwise_corr": 0.0555987933706226,
+   "n_parts": 61,
+   "T": 53
+  },
+  "main_same_years": {
+   "sd_aggregate": 0.36092203057827216,
+   "sd_independent": 0.28378604209572156,
+   "sd_synchronized": 1.5847746853084528,
+   "position_0ind_1sync": 0.059290285803008116,
+   "R": 1.6175016116794796,
+   "R_null_median": 0.9204543264281049,
+   "R_null_p05": 0.18281266811929303,
+   "R_null_p95": 2.4116986473092643,
+   "p_above_null": 0.18,
+   "p_below_null": 0.82,
+   "mean_pairwise_corr": 0.03199438855518453,
+   "n_parts": 61,
+   "T": 53
+  },
+  "aggregate_annual_corr_with_main": 0.9792247749021274,
+  "aggregate_mean_ex": 0.5795698885269621,
+  "aggregate_mean_main": 0.5403502824467235
+ }
+}

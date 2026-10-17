@@ -1,0 +1,50 @@
+{
+ "noise_sd": 0.045396535856666906,
+ "decline_2.5_to_1.0": {
+  "bic": {
+   "POW": 0.055,
+   "EXP": 0.565,
+   "ADDP": 0.305,
+   "DRIFT": 0.025,
+   "EXPDEC": 0.05
+  },
+  "prequential": {
+   "ADDP": 0.36,
+   "DRIFT": 0.18,
+   "EXP": 0.44,
+   "EXPDEC": 0.02
+  },
+  "share_slope_significantly_negative": 0.345
+ },
+ "decline_2.0_to_1.5": {
+  "bic": {
+   "ADDP": 0.14,
+   "EXP": 0.815,
+   "DRIFT": 0.035,
+   "POW": 0.005,
+   "EXPDEC": 0.005
+  },
+  "prequential": {
+   "ADDP": 0.175,
+   "EXP": 0.665,
+   "DRIFT": 0.155,
+   "EXPDEC": 0.005
+  },
+  "share_slope_significantly_negative": 0.1
+ },
+ "drift_lambda_0.95": {
+  "bic": {
+   "ADDP": 0.235,
+   "EXP": 0.35,
+   "EXPDEC": 0.21,
+   "DRIFT": 0.205
+  },
+  "prequential": {
+   "ADDP": 0.215,
+   "EXP": 0.305,
+   "DRIFT": 0.4,
+   "EXPDEC": 0.08
+  },
+  "share_slope_significantly_negative": 0.295
+ }
+}

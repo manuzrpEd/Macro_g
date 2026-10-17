@@ -1,0 +1,17 @@
+# Raw downloads: re-fetched by scripts/run_all.py; WIPO data may not be redistributed
+data/raw/
+
+# IPUMS USA microdata: the terms of use forbid redistribution. Never commit extracts or
+# person-level derived files, wherever they are saved. Aggregated tables (counts by year
+# and occupation, in output/) may be shared with the IPUMS citation.
+data/raw/ipums/
+data/processed/ipums*/
+**/usa_[0-9]*.csv*
+**/usa_[0-9]*.dat*
+**/usa_[0-9]*.xml
+**/usa_[0-9]*.cbk
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/

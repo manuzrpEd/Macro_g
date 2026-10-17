@@ -1,0 +1,294 @@
+{
+ "T1_peaks": {
+  "AUS": {
+   "tfp_peak": 1942.0,
+   "tfp_peak_growth": 2.744175227569021,
+   "research_peak": 1906.0,
+   "research_peak_growth": 14.721119981918624
+  },
+  "AUT": {
+   "tfp_peak": 1956.0,
+   "tfp_peak_growth": 5.983462493373641,
+   "research_peak": 1991.0,
+   "research_peak_growth": 7.988773020262244
+  },
+  "BEL": {
+   "tfp_peak": 1954.0,
+   "tfp_peak_growth": 3.8922551820430233,
+   "research_peak": 1956.0,
+   "research_peak_growth": 7.631524567391487
+  },
+  "CAN": {
+   "tfp_peak": 1945.0,
+   "tfp_peak_growth": 3.8461807025070787,
+   "research_peak": 1891.0,
+   "research_peak_growth": 23.306898381407805
+  },
+  "CHE": {
+   "tfp_peak": 1954.0,
+   "tfp_peak_growth": 3.5760536527397244,
+   "research_peak": 1910.0,
+   "research_peak_growth": 13.836510767233047
+  },
+  "CHL": {
+   "tfp_peak": 1943.0,
+   "tfp_peak_growth": 3.6426287988162036,
+   "research_peak": 1906.0,
+   "research_peak_growth": 8.74970216663346
+  },
+  "DEU": {
+   "tfp_peak": 1957.0,
+   "tfp_peak_growth": 5.650131433570332,
+   "research_peak": 1981.0,
+   "research_peak_growth": 7.721628147297669
+  },
+  "DNK": {
+   "tfp_peak": 1952.0,
+   "tfp_peak_growth": 2.8955930967462287,
+   "research_peak": 1931.0,
+   "research_peak_growth": 13.981646672075772
+  },
+  "ESP": {
+   "tfp_peak": 1961.0,
+   "tfp_peak_growth": 3.8369980358955025,
+   "research_peak": 1970.0,
+   "research_peak_growth": 8.078018025367134
+  },
+  "FIN": {
+   "tfp_peak": 1929.0,
+   "tfp_peak_growth": 4.019524934511283,
+   "research_peak": 1906.0,
+   "research_peak_growth": 7.810023215831834
+  },
+  "FRA": {
+   "tfp_peak": 1955.0,
+   "tfp_peak_growth": 6.8114344497204975,
+   "research_peak": 1965.0,
+   "research_peak_growth": 7.012003184554831
+  },
+  "GBR": {
+   "tfp_peak": 1963.0,
+   "tfp_peak_growth": 2.248596262864074,
+   "research_peak": 1971.0,
+   "research_peak_growth": 9.122256656623174
+  },
+  "GRC": {
+   "tfp_peak": 1956.0,
+   "tfp_peak_growth": 7.402752980855289,
+   "research_peak": 1921.0,
+   "research_peak_growth": 8.54901492384941
+  },
+  "IRL": {
+   "tfp_peak": 1994.0,
+   "tfp_peak_growth": 3.6298416101720092,
+   "research_peak": 1976.0,
+   "research_peak_growth": 7.3262512110177385
+  },
+  "ITA": {
+   "tfp_peak": 1956.0,
+   "tfp_peak_growth": 6.108953847437949,
+   "research_peak": 1981.0,
+   "research_peak_growth": 5.475855345481588
+  },
+  "JPN": {
+   "tfp_peak": 1960.0,
+   "tfp_peak_growth": 4.983692668470375,
+   "research_peak": 1910.0,
+   "research_peak_growth": 12.977972375864775
+  },
+  "MEX": {
+   "tfp_peak": 1943.0,
+   "tfp_peak_growth": 3.5279773269917407,
+   "research_peak": 1971.0,
+   "research_peak_growth": 10.13336709490706
+  },
+  "NLD": {
+   "tfp_peak": 1955.0,
+   "tfp_peak_growth": 4.541124196901043,
+   "research_peak": 1971.0,
+   "research_peak_growth": 12.398383455647439
+  },
+  "NOR": {
+   "tfp_peak": 1955.0,
+   "tfp_peak_growth": 3.6876652608684877,
+   "research_peak": 1971.0,
+   "research_peak_growth": 9.6130679132833
+  },
+  "NZL": {
+   "tfp_peak": 1944.0,
+   "tfp_peak_growth": 2.6840437623605125,
+   "research_peak": 1880.0,
+   "research_peak_growth": 12.680159577199621
+  },
+  "PRT": {
+   "tfp_peak": 1963.0,
+   "tfp_peak_growth": 5.045840574348941,
+   "research_peak": 1981.0,
+   "research_peak_growth": 8.104723405273392
+  },
+  "SWE": {
+   "tfp_peak": 1954.0,
+   "tfp_peak_growth": 2.986521461451712,
+   "research_peak": 1925.0,
+   "research_peak_growth": 12.23324147160503
+  },
+  "USA": {
+   "tfp_peak": 1943.0,
+   "tfp_peak_growth": 3.634088399052963,
+   "research_peak": 1891.0,
+   "research_peak_growth": 8.77414521223726
+  }
+ },
+ "T1_main": {
+  "n": 22,
+  "slope_research_peak": 0.14588359196657663,
+  "se": 0.04387211760739244,
+  "p_one_sided_positive": 0.0004417746903696985,
+  "slope_gap1890": -1.1760773839883,
+  "se_gap": 4.665295001203544,
+  "p_gap": 0.8009709745394987,
+  "r2": 0.38232607739638647,
+  "median_lag": 9.5,
+  "share_lag_0_40": 0.2727272727272727,
+  "sd_tfp_peak": 8.404286681928134,
+  "sd_research_peak": 36.25594442975533,
+  "corr_peaks": 0.6151283522658076
+ },
+ "T1_robust": {
+  "window31": {
+   "n": 22,
+   "slope_research_peak": 0.1203239133216698,
+   "se": 0.04771908945916894,
+   "p_one_sided_positive": 0.005842703990484463,
+   "slope_gap1890": -3.7200254920898175,
+   "se_gap": 4.778061385801107,
+   "p_gap": 0.4362367272322947,
+   "r2": 0.29740170306020164,
+   "median_lag": -2.5,
+   "share_lag_0_40": 0.13636363636363635,
+   "sd_tfp_peak": 8.38778745289712,
+   "sd_research_peak": 38.82807035662535,
+   "corr_peaks": 0.5080919210248638
+  },
+  "lowfreq_trend": {
+   "n": 22,
+   "slope_research_peak": -0.02399910273255479,
+   "se": 0.09694343644322803,
+   "p_one_sided_positive": 0.5977617129499284,
+   "slope_gap1890": 9.527816333104134,
+   "se_gap": 7.565670503216663,
+   "p_gap": 0.20790445688890813,
+   "r2": 0.09260591277489327,
+   "median_lag": 14.0,
+   "share_lag_0_40": 0.18181818181818182,
+   "sd_tfp_peak": 13.750088547530707,
+   "sd_research_peak": 37.20028859916912,
+   "corr_peaks": 0.03706895358296761
+  },
+  "rich_only": {
+   "n": 17,
+   "slope_research_peak": 0.1450980088193209,
+   "se": 0.04336442865552877,
+   "p_one_sided_positive": 0.0004099104825284259,
+   "slope_gap1890": -0.7902452367375823,
+   "se_gap": 6.90197774481648,
+   "p_gap": 0.9088450313544202,
+   "r2": 0.4269247223410092,
+   "median_lag": 21.0,
+   "share_lag_0_40": 0.23529411764705882,
+   "sd_tfp_peak": 8.284464553679765,
+   "sd_research_peak": 37.44849404024617,
+   "corr_peaks": 0.6522567917307331
+  },
+  "madsen_gap": {
+   "n": 21,
+   "slope_research_peak": 0.19018458042023584,
+   "se": 0.05675461866687999,
+   "p_one_sided_positive": 0.0004026052707304132,
+   "slope_gap1890": 3.945179026741355,
+   "se_gap": 4.827962500570401,
+   "p_gap": 0.41384159143014443,
+   "r2": 0.3753631272450241,
+   "median_lag": 18.0,
+   "share_lag_0_40": 0.2857142857142857,
+   "sd_tfp_peak": 12.117480486195689,
+   "sd_research_peak": 36.529831253765344,
+   "corr_peaks": 0.598667771214567
+  },
+  "no_gap_control": {
+   "slope": 0.1865586094343441,
+   "se": 0.05738638537011406,
+   "p_two_sided": 0.0011503178763412395
+  }
+ },
+ "T1_exploratory_war_control": {
+  "slope_research_peak": 0.12702386797874476,
+  "se": 0.058498582117894576,
+  "p_two_sided": 0.02990088853525027,
+  "war_coef": 2.899374258889054,
+  "war_se": 3.9206556303038846,
+  "within_war_corr": -0.17589480672994554,
+  "within_nonwar_corr": 0.666829247867109,
+  "n_negative_lag": 11,
+  "n_lag_over_40": 5,
+  "n": 22
+ },
+ "T1_verdict": "pass",
+ "T2_panel_10y": {
+  "coef": {
+   "g_grad_lag": -0.0011860976974449125,
+   "ln_share": 0.12363675466009139,
+   "ln_gap": 2.1688307485256826
+  },
+  "se": {
+   "g_grad_lag": 0.01576278283470444,
+   "ln_share": 0.156158116811712,
+   "ln_gap": 0.43488767925518695
+  },
+  "p": {
+   "g_grad_lag": 0.9406984695486177,
+   "ln_share": 0.4369657570783929,
+   "ln_gap": 5.4355269578332886e-05
+  },
+  "n": 272
+ },
+ "T2_panel_10y_country_fe_only": {
+  "coef": {
+   "g_grad_lag": -0.0292725751165635,
+   "ln_share": 0.23106058235900934,
+   "ln_gap": 2.470304699152004
+  },
+  "se": {
+   "g_grad_lag": 0.018574810099094848,
+   "ln_share": 0.08077683324955783,
+   "ln_gap": 0.5619792295035401
+  },
+  "p": {
+   "g_grad_lag": 0.12931431022190606,
+   "ln_share": 0.009092273077545452,
+   "ln_gap": 0.00022947513162590552
+  }
+ },
+ "T2_variance_shares": {
+  "period_effects_r2": 0.3191897014624683,
+  "country_effects_r2": 0.04556215998818369
+ },
+ "T3_panel_5y_RD": {
+  "coef": {
+   "g_S_lag": 0.020362801214377654,
+   "ln_xq": 0.4649239804159977,
+   "ln_gap": 2.9908098440086643
+  },
+  "se": {
+   "g_S_lag": 0.023729793597889796,
+   "ln_xq": 0.41322031281755883,
+   "ln_gap": 1.0533624430536326
+  },
+  "p": {
+   "g_S_lag": 0.4009982155453733,
+   "ln_xq": 0.27385839298221804,
+   "ln_gap": 0.010135058730481787
+  },
+  "n": 168
+ }
+}
